@@ -6,7 +6,7 @@ La fonction doit renvoyer un tableau ne contenant que les membres de la famille 
 Il y a plusieurs façons d'écrire cette fonction, et outre filter, tu auras probablement
 besoin d'une de ces méthodes de String: endsWith ou split.
 
-Exemple d'entrée:
+Entrée:
   [
     'Bran Stark',
     'Cersei Lannister',
@@ -20,6 +20,8 @@ Sortie attendue:
   ['Bran Stark', 'Arya Stark', 'Sansa Stark']
  */
 
-  const keepStarks = array => array.filter(element => element.includes('Stark'))
+//WRITE YOUR FUNCTION HERE
 
-  console.log(keepStarks(['Bran Stark','Cersei Lannister','Sandor Clegane','Arya Stark','Yara Greyjoy','Sansa Stark']))
+
+//DO NOT TOUCH THIS CODE
+console.log(keepStarks(['Bran Stark','Cersei Lannister','Sandor Clegane','Arya Stark','Yara Greyjoy','Sansa Stark']))

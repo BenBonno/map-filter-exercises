@@ -7,7 +7,7 @@ d'objets décrivant des campus de la Wild Code School. Chaque campus a ces propr
 En utilisant filter puis map, la fonction doit renvoyer les villes des campus qui proposent
 un cursus JS/React.
 
-Tableau en entrée:
+Entrée:
 [
   { city: 'Bordeaux', curriculums: ['PHP/Symfony', 'JS/React'] },
   { city: 'La Loupe', curriculums: ['JS/Angular'] },
@@ -22,14 +22,8 @@ Sortie attendue:
   ['Bordeaux', 'Lille', 'Marseille', 'Reims', 'Toulouse']
 */
 
-const getCampusesTeachingReact = array => array.filter(element => element.curriculums.includes('JS/React')).map(element => element.city)
+//WRITE YOUR FUNCTION HERE
 
-console.log(getCampusesTeachingReact([
-  { city: 'Bordeaux', curriculums: ['PHP/Symfony', 'JS/React'] },
-  { city: 'La Loupe', curriculums: ['JS/Angular'] },
-  { city: 'Lille', curriculums: ['PHP/Symfony', 'JS/React'] },
-  { city: 'Marseille', curriculums: ['JS/React'] },
-  { city: 'Orléans', curriculums: ['PHP/Symfony'] },
-  { city: 'Reims', curriculums: ['JS/React'] },
-  { city: 'Toulouse', curriculums: ['JEE/Android', 'JS/React'] }
-]))
+
+//DO NOT TOUCH THIS CODE
+console.log(getCampusesTeachingReact([{ city: 'Bordeaux', curriculums: ['PHP/Symfony', 'JS/React'] },{ city: 'La Loupe', curriculums: ['JS/Angular'] },{ city: 'Lille', curriculums: ['PHP/Symfony', 'JS/React'] },{ city: 'Marseille', curriculums: ['JS/React'] },{ city: 'Orléans', curriculums: ['PHP/Symfony'] },{ city: 'Reims', curriculums: ['JS/React'] },{ city: 'Toulouse', curriculums: ['JEE/Android', 'JS/React'] }]))

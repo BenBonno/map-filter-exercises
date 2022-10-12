@@ -8,7 +8,7 @@ Ecrire une fonction filterOnPrice, qui attend 2 arguments:
 La fonction doit renvoyer un tableau ne contenant que les produits ne dépassant pas le prix
 maximum.
 
-Exemple d'entrée:
+Entrée:
 1. tableau de produits:
 [
   { name: 'iPhone X', price: 1159 },
@@ -26,6 +26,8 @@ Sortie attendue:
   ]
  */
 
-const filterOnPrice = (array, maxPrice) => array.filter(element => element.price < maxPrice)
+//WRITE YOUR FUNCTION HERE
 
+
+//DO NOT TOUCH THIS CODE
 console.log(filterOnPrice([{ name: 'iPhone X', price: 1159 },{ name: 'Xiaomi Mi A2', price: 209 },{ name: 'Samsung Galaxy Note 9', price: 992 },{ name: 'Huawei P20', price: 480 },{ name: 'Huawei P20 Pro', price: 649 }],500))

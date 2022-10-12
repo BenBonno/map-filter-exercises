@@ -11,7 +11,7 @@ En utilisant filter et map, la fonction doit d'abord éliminer les campus
 qui ne proposent pas le cursus donné par le 2ème argument, puis renvoyer,
 pour chaque campus gardé, un objet sous la forme : { VILLE: NB_ELEVES }.
 
-Arguments en entrée:
+Entrée:
 1. Tableau des campus:
 [
   { city: 'Bordeaux',
@@ -46,4 +46,34 @@ Sortie attendue:
   [{ Bordeaux: 12 }, { Lille: 12 }]
 */
 
+// WRITE YOUR FUNCTION HERE
 
+
+// DO NOT TOUCH THIS CODE
+console.log(getStudentsPerCurriculum([
+  { city: 'Bordeaux',
+    curriculums: [
+      { name: 'PHP/Symfony', numStudents: 12 },
+      { name: 'JS/React', numStudents: 29 }
+    ]
+  },
+  {
+    city: 'La Loupe',
+    curriculums: [
+      { name: 'JS/Angular', numStudents: 32 }
+    ]
+  },
+  {
+    city: 'Lille',
+    curriculums: [
+      { name: 'PHP/Symfony', numStudents: 12 },
+      { name: 'JS/React', numStudents: 10 }
+    ]
+  },
+  {
+    city: 'Marseille',
+    curriculums: [
+      { name: 'JS/React', numStudents: 16 }
+    ]
+  }
+],'PHP/Symfony'))

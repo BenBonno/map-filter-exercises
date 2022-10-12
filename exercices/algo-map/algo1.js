@@ -5,22 +5,17 @@ En utilisant map, cette fonction doit renvoyer un tableau avec,
 pour chaque chaîne CHAINE de longueur N en entrée, la chaîne "CHAINE contains N characters"
 en sortie.
 
-Exemple d'entrée:
-  [
-    'Chicken',
-    'Bacon',
-    'Tofu',
-    'Mayonnaise'
-  ]
+Entrée: ['Chicken','Bacon','Tofu','Mayonnaise']
 
-En sortie: [
-  'Chicken contains 7 characters',
-  'Bacon contains 5 characters',
-  'Tofu contains 4 characters',
-  'Mayonnaise contains 10 characters'
-]
+Sortie attendue: ['Chicken contains 7 characters',
+                  'Bacon contains 5 characters',
+                  'Tofu contains 4 characters',
+                  'Mayonnaise contains 10 characters'
+                ]
  */
 
-const getStringsLength = string => string.map(element => `${element} contains ${element.length} characters`)
+//WRITE YOUR FUNCTION HERE
 
+
+//DO NOT TOUCH THIS CODE
 console.log(getStringsLength(['Chicken','Bacon','Tofu','Mayonnaise']))

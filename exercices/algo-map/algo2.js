@@ -13,7 +13,7 @@ OU
 en fonction de la valeur de la propriété `isVegetarian`, en remplaçant FOOD
 par le nom du produit
 
-Exemple d'entrée:
+Entrée:
   [
     {
       food: 'Bacon',
@@ -33,7 +33,7 @@ Exemple d'entrée:
     }
   ]
 
-En sortie: [
+Sortie attendue: [
   'Bacon is not suitable for vegetarians',
   'Sausage is not suitable for vegetarians',
   'Tofu is suitable for vegetarians',
@@ -41,8 +41,8 @@ En sortie: [
 ]
  */
 
-foodList = [{food: 'Bacon',isVegetarian: false},{food: 'Sausage',isVegetarian: false},{food: 'Tofu',isVegetarian: true},{food: 'Chick Pea',isVegetarian: true}]
+//WRITE YOUR FUNCTION HERE
 
-const getFoodCategories = array => array.map(element => element.isVegetarian ? `${element.food} is suitable for vegetarians` : `${element.food} is not suitable for vegetarians`)
 
-console.log(getFoodCategories(foodList));
+//DO NOT TOUCH THIS CODE
+console.log(getFoodCategories([{food: 'Bacon',isVegetarian: false},{food: 'Sausage',isVegetarian: false},{food: 'Tofu',isVegetarian: true},{food: 'Chick Pea',isVegetarian: true}]));

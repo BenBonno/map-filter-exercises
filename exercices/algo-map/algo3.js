@@ -12,7 +12,7 @@ une chaîne, dépendante de la valeur de rating :
 * Si `rating` est compris entre 60 et 75 (inclus), la valeur à attribuer à label sera "fresh".
 * Si `rating` est supérieur à 75, la valeur à attribuer à label sera "certified fresh".
 
-Exemple d'entrée:
+Entrée:
   [
     {
       name: 'Crazy Rich Asians',
@@ -32,7 +32,7 @@ Exemple d'entrée:
     }
   ]
 
-En sortie:
+Sortie attendue:
   [
     {
       name: 'Crazy Rich Asians',
@@ -57,9 +57,10 @@ En sortie:
   ]
  */
 
-  const moviesList =  [{name: 'Crazy Rich Asians',rating: 93},{name: 'Skyscraper',rating: 46},{name: 'Leave No Trace',rating: 100},{name: 'White Boy Rick',rating: 60}]
+// WRITE YOUR FUNCTION HERE
 
-  const getMoviesFreshness = films => films.map(film => ({...film, "label": film.rating < 60 ? "rotten" : film.rating>=60 && film.rating<=75 ? "fresh" : "certified fresh"}))
 
-  console.log(getMoviesFreshness(moviesList))
+
+// DO NOT TOUCH THIS CODE
+console.log(getMoviesFreshness([{name: 'Crazy Rich Asians',rating: 93},{name: 'Skyscraper',rating: 46},{name: 'Leave No Trace',rating: 100},{name: 'White Boy Rick',rating: 60}]))
 
