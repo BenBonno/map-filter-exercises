@@ -15,7 +15,9 @@ Sortie attendue:
  */
 
 //WRITE YOUR FUNCTION HERE
-
+const getMultiplesOf = (arr, arg) => {
+    return arr.filter(e => e % arg === 0)
+}
 
 //DO NOT TOUCH THIS CODE
-console.log(getMultiplesOf([-12, -10, -7, -1, 5, 8, 11, 15, 20, 27],5))
+console.log(getMultiplesOf([-12, -10, -7, -1, 5, 8, 11, 15, 20, 27], 5))

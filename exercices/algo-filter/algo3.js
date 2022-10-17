@@ -21,7 +21,8 @@ Sortie attendue:
  */
 
 //WRITE YOUR FUNCTION HERE
-
-
+const keepStarks = (arr) => {
+  console.log(arr.split(''))
+}
 //DO NOT TOUCH THIS CODE
-console.log(keepStarks(['Bran Stark','Cersei Lannister','Sandor Clegane','Arya Stark','Yara Greyjoy','Sansa Stark']))
+console.log(keepStarks(['Bran Stark', 'Cersei Lannister', 'Sandor Clegane', 'Arya Stark', 'Yara Greyjoy', 'Sansa Stark']))

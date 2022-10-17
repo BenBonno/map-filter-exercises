@@ -12,7 +12,10 @@ Sortie attendue:
  */
 
 //WRITE YOUR FUNCTION HERE
-
+const getPositiveNumbers = (array) => {
+  return array.filter(e => e >= 0)            //ne pas oublier le return !!!!
+}
 
 //DO NOT TOUCH THIS CODE
 console.log(getPositiveNumbers([7, -4, 2, 0, -10, 3, 11]))
+
